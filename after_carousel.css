@@ -1,0 +1,152 @@
+div.aftercarousel{
+    display: flex;
+}
+div.owlcarousel{
+    background-color: white;
+    box-shadow: 0px 0px 10px black;
+    height: 300px;
+    width: 78%;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+div.dealday{
+    display: flex;
+}
+div.dealday h2{
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    margin-left: 30px;
+    margin-top: 20px;
+}
+div.dealday button{
+    color: white;
+    margin-left: 730px;
+    background-color: rgb(48, 11, 214);
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 30px;
+    width: 100px;
+    border-radius: 3px;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px black;
+}
+div.dealday button:hover{
+    background-color: orangered;
+}
+div.temp1{
+    padding: 20px;
+    width: 20%;
+    height: 300px;
+    background-color: rgb(221, 181, 107);
+    margin-top: 20px;
+    margin-left: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+div.temp1 h2{
+    margin: 40px;
+    color: rgb(56, 117, 231);
+    font-size: 30px;
+}
+div.buyandcart{
+    
+    height: 20%;
+    width: 95%;
+    margin-top: 60px;
+    margin-left: 2%;
+    display: flex;
+    position:relative;
+    margin-top: 120px; 
+}
+div.buyandcart a{
+    background-color: rgb(219, 7, 7);
+    outline: none;
+    border: none;
+    margin: 3%;
+    height: 55%;
+    width: 40%;
+    color: white;
+    cursor: pointer;
+    box-shadow: 2px 2px 4px rgb(14, 13, 13);
+    font-size: 12px;
+    border-radius: 4px;
+    
+    
+}
+div.buyandcart button.buy{
+    color: white;
+    font-size: 12px;
+    padding-top: 5px; 
+    cursor: pointer;
+   
+}
+div.buyandcart a:hover{
+    background-color: rgb(219, 64, 17);
+}
+div.buyandcart button.cart{
+    background-color: rgb(55, 119, 3);
+    outline: none;
+    border: none;
+    margin: 3%;
+    width: 48%;
+    height: 55%;
+    font-size: 11px;
+    color: white;
+    cursor: pointer;
+    
+    box-shadow: 2px 2px 4px rgb(8, 8, 8);
+}
+div.buyandcart button.cart:hover{
+    background-color: rgb(15, 77, 4);
+}
+div.owl-carousel{
+    
+    
+    width: 100%;
+    height: 240px;
+    margin-top: -20px;
+}
+div.owl-carousel div.item{
+    background-color: rgb(221, 181, 107);
+    height: 200px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 5px 5px 3px black;
+}
+div.owl-carousel div.item h2{
+  color: black;
+  font-size: 30px;
+  padding: 10px;
+  padding-bottom: 0px;
+}
+div.cards{
+    
+    height: 300px;
+    display: flex;
+}
+div.cards div.card{
+    margin-top: 10px;
+    background-color: black;
+    margin-left: 10px;
+    height: 280px;
+    width: 32.3%;    
+}
+div.cards div.card h1{
+    color: white;
+    padding: 30px;
+}
+@media (max-width:1400px){
+    div.aftercarousel{
+        width: 1400px;
+    }
+}
+
+
+@media (max-width:1400px){
+    div.cards{
+        width: 1400px;
+    }
+}
+
+
