@@ -1,0 +1,217 @@
+nav div.down{
+    /* background-image: linear-gradient(90deg,rgb(246, 246, 246),rgb(241, 248, 176),rgb(130, 235, 135),rgb(130, 235, 135),rgb(241, 248, 176),rgb(246, 246, 246)); */
+    display: flex;
+    background-color: white;
+    /* position:fixed; */
+    position: absolute;
+    top: 50px;
+    left: 0px;
+    right: 0px;
+    height: 95px;
+    z-index: 2;
+    box-shadow: 0px 0px 2px black;
+    
+}
+
+div.down div{
+    margin-left: 20px;
+    margin-right: 70px;
+    cursor: pointer;
+}
+div.down div h2{
+    font-size: 14px;
+    color: rgb(109, 104, 104);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0px;
+    margin-left: 0px;
+    font-weight: bold;
+}
+div.down div h2.grocary{
+    margin-left: 22px;
+}
+div.down div h2.mobile{
+    margin-left: 22px;
+}
+div.mobile{
+    display:grid;
+}
+div.mobile_content{
+    display: none;
+    width: 150px;
+}
+div.mobile_content a{
+    color: black;
+    padding: 12px 16px;
+    margin-right: -60px;
+    text-decoration: none;
+    display: block;
+}
+div.mobile_name a{
+    color: rgb(37, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-35px;
+}
+div.mobile_name a:hover{
+    color: blue;
+    font-weight: bold;
+}
+div.mobile:hover div.mobile_content{
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    box-shadow: 0px 0px 4px rgb(76, 76, 245);
+    border-radius: 2px;
+    
+
+}
+div.fashion{
+    display:grid;
+}
+div.fashion_content{
+    display: none;
+    width: 150px;
+}
+div.fashion_content a{
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    margin-right: -60px;
+    text-decoration: none;
+    display: block;
+}
+div.fashion_name a{
+    color: rgb(37, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-35px;
+}
+div.fashion_name a:hover{
+    color: blue;
+    font-weight: bold;
+}
+div.fashion:hover div.fashion_content{
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 15px;
+    box-shadow: 0px 0px 4px rgb(76, 76, 245);
+    border-radius: 2px;
+    
+
+}
+div.electronics{
+    display:grid;
+}
+div.electronics_content{
+    display: none;
+    width: 180px;
+}
+div.electronics_content a{
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    margin-right: -90px;
+    text-decoration: none;
+    display: block;
+}
+div.electronics_name a{
+    color: rgb(37, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-35px;
+}
+div.electronics_name a:hover{
+    color: blue;
+    font-weight: bold;
+}
+div.electronics:hover div.electronics_content{
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 15px;
+    box-shadow: 0px 0px 4px rgb(76, 76, 245);
+    border-radius: 2px;
+    
+
+}
+div.down div h2.home{
+    margin-left: 22px;
+}
+div.home{
+    display:grid;
+}
+div.home_content{
+    display: none;
+    width: 150px;
+}
+div.home_content a{
+    color: black;
+    padding: 10px;
+    padding-top: 15px;
+    margin-right: -60px;
+    text-decoration: none;
+    display: block;
+}
+div.home_name a{
+    color: rgb(37, 36, 36);
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:-35px;
+}
+div.home_name a:hover{
+    color: blue;
+    font-weight: bold;
+}
+div.home:hover div.home_content{
+    display: block;
+    background-color: white;
+    position: absolute;
+    margin-top: 90px;
+    font-size: 15px;
+    box-shadow: 0px 0px 4px rgb(76, 76, 245);
+    border-radius: 2px;
+    
+
+}
+div.down div h2.beauty{
+    margin-left: 22px;
+}
+div.down div:hover h2{
+    color: rgb(70, 70, 240);
+}
+
+
+@media (min-width:1450px){
+    div.down div{
+        margin-right: 100px;
+        
+    }
+}
+@media (min-width:1550px){
+    div.down div{
+        margin-right: 110px;
+    }
+}
+@media (min-width:1650px){
+    div.down div{
+        margin-right: 120px;
+        margin-left: 25;
+    }
+}
+@media (min-width:1750px){
+    div.down div{
+        margin-right: 135px;
+        margin-left: 30px;
+    }
+}
+@media (min-width:1850px){
+    div.down div{
+        margin-right: 145px;
+        margin-left: 35;
+    }
+}
+@media (max-width:1500px){
+    nav div.down{
+        width: 1400px;
+    }
+}

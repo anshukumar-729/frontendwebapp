@@ -1,0 +1,56 @@
+div.products{
+    height: 1500px;
+    width: 100%;
+    
+    margin-top: 160px;
+}
+div.batch{
+    height: 300px;
+    
+    margin: 10px;    
+    box-shadow: 0px 0px 8px black;
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+}
+div.deal{
+    margin: 10px;
+    height: 280px;
+    width: 15%;
+    background-color: rgb(221, 181, 107);
+    border-radius: 5px;
+}
+div.banners{
+    width: 98%;
+    height: 300px;
+    margin: 10px;
+    display: flex;
+    margin-left: 0px;
+}
+div.banner{
+    width: 32%;
+    height: 280px;
+    margin: 10px;
+    background-color: rgb(141, 68, 8);
+}
+@media (max-width:1400px){
+    div.batch{
+        width: 1350px;
+    }
+}
+@media (max-width:1400px){
+    div.banners{
+        width: 1350px;
+    }
+}
+@media (min-width:1500px){
+    div.deal{
+        width: 17%;
+    }
+}
+@media (min-width:1500px){
+    div.banner{
+        margin: 14px;
+        
+    }
+}

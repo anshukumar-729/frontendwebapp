@@ -1,0 +1,191 @@
+
+    div.overlay{
+        position: fixed;
+        top:0px;
+        left: 0px;
+        width: 100vw;
+        height: 100vh;
+        background: rgba(0, 0, 0, 0.438);
+        z-index: 3;
+        display: none;
+    }
+    div.content{
+        position: fixed;
+        top: 330px;
+        left: 50%;
+        transform: translate(-50%,-50%) scale(0);
+         border-radius: 4px;
+        width: 650px;
+        height: 500px;
+        z-index: 4;
+        text-align: center;
+        
+        
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px black;
+        display: flex;
+
+    }
+    div.popuplogo div.content{
+        box-shadow: none;
+    }
+    
+    div.signinpage{
+        position: absolute;
+        top:70px;
+        left: 20%;
+         border-radius: 4px;
+        width: 850px;
+        height: 550px;
+        z-index: 1;
+        text-align: center;
+        
+        
+        box-sizing: border-box;
+        box-shadow: 0px 0px 5px rgb(221, 221, 221);
+        display: flex;
+    }
+    div.bluepart{
+        background-color: rgb(0, 104, 240);
+        width: 35%;
+        height: 100%;
+    }
+    div.bluepart h2{
+        color: white;
+        font-size: 28px;
+        margin-top: 50px;
+        padding: 5px;
+    }
+    div.bluepart h3{
+        color: rgb(206, 203, 203);
+        font-size: 17px;
+        padding: 10px;
+        margin-top: 30px;
+    }
+    div.whitepart{
+        background-color: white;
+        width: 65%;
+        height: 100%;
+    }
+    div.form form{
+        margin-top: 30px;
+    }
+    div.form form input{
+        padding: 4px;
+        margin: 8px;
+        width: 90%;
+        border: none;
+        outline: none;
+        border-bottom: 2px solid rgb(67, 77, 228);
+        
+    }
+    
+    
+    div.form form input:hover{
+        border-color: rgb(47, 0, 255);
+    }
+    div.form form input:focus{
+        border-bottom: 3px solid rgb(17, 0, 255);
+    }
+    div.form form button.submit{
+        padding: 4px;
+        margin: 15px;
+        width:80%;
+        border: none;
+        outline: none;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        opacity: 01;
+        transition: 0.3s ease-out;
+        border-radius: 5px;
+    }
+    div.popupaddress div.form form button.submit{
+        padding: 4px;
+        margin: 15px;
+        width:80%;
+        border: none;
+        outline: none;
+        background-color: rgb(255, 123, 0);
+        color: white;
+        opacity: 01;
+        transition: 0.3s ease-out;
+        border-radius: 5px;
+    }
+    div.form form div.existing{
+        padding: 4px;
+        margin: 15px;
+        margin-left: 10%;
+        width:  80%;
+        border: none;
+        outline: none;
+        background-color: white;
+        color: rgb(76, 91, 223);
+        opacity: 01;
+        transition: 0.3s ease-out;
+        border-radius: 5px;
+        box-shadow: 0px 2px 4px black;
+    }
+    div.form form a{
+        text-decoration: none;
+        width: 100%;
+        cursor: pointer;
+    }
+    div.form form div.newuser{
+       
+        margin-top: 50px;
+    }
+    div.form form h4{
+        color: rgb(98, 93, 93);
+        font-size: 12px;
+        margin-top: -10px;
+    }
+    div.form form h4 span{
+        color: blue;
+    }
+    
+    div.closebtn{
+        cursor: pointer;
+        position: absolute;
+        right: -35px;
+        top: -2px;
+        
+       
+        color:  #fff;
+        font-size: 50px;
+        
+        line-height: 30px;
+        text-align: center;
+          }
+    div.closebtn:hover{
+        color:red;
+    }
+    div.content h1{
+        color: yellow;
+    }
+    div.popup.active .overlay{
+        display: block;
+    }
+    div.popup.active .content{
+        transition: all 100ms ease-in-out;
+        transform: translate(-50%,-50%) scale(1);
+    }
+    div.popuplogo.active .overlay{
+        display: block;
+    }
+    div.popuplogo.active .content{
+        transition: all 100ms ease-in-out;
+        transform: translate(-50%,-50%) scale(1);
+    }
+   
+    button{
+        border: none;
+        background: none;
+        outline: none;
+    }
+    @media (min-width:1450px){
+        div.signinpage{
+            width: 950px;
+        }
+    }
+        
+  
