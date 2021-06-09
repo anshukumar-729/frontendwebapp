@@ -1,0 +1,251 @@
+nav div.up{
+    background-image: linear-gradient(90deg,rgb(74, 146, 241),rgb(44, 88, 235),rgb(44, 88, 235),rgb(74, 146, 241));
+    display: flex;
+    position:fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 50px;
+    z-index: 3;
+
+}
+/* ---start logo--- */
+div.logo {
+    padding: 3px;
+    margin-top: -17px;
+    margin-left: 10% ;
+    cursor: pointer;
+    display: flex;
+}
+div.logo a{
+    text-decoration: none;
+}
+div.logo h1{
+    
+    color: white;
+    font-family: cursive;
+    font-style: italic;
+    font-size: 22px;
+    margin-top: 22px;
+}
+div.logo h2{
+   
+    color: rgb(216, 242, 247);
+    font-family:Arial, Helvetica, sans-serif;
+    font-style: italic;
+    font-size: 12px;
+    margin-top: -10px;
+}
+div.logo h2.glitch{
+    margin-top: -20px;
+}
+/* ---end logo--- */
+
+/* ---start search--- */
+div.search{
+    background-color: white;
+    margin-top: 10px;
+    padding-top: 5px;
+    padding-bottom:5px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    width: 30%;
+    border-radius: 1px;
+    box-shadow: 0px 0px 2px black;
+}
+div.search input{
+    border: none;
+    margin-left: 10px;
+    outline: none;
+    width: 90%;
+}
+div.search button{
+    outline: none;
+    border: none;
+    background-color: white;
+}
+div.search{
+    display: flex;
+}
+div.search i{
+    color: blue;
+    margin-left: 0px;
+    cursor: pointer;
+}
+/* ---end search--- */
+
+div.select{
+    display: flex;
+    margin-left: 120px;
+}
+/* ---start login--- */
+div.select button.login_button {
+    background-color: white;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 00px;
+   height: 30px;
+   width: 100px;
+   border-radius: 3px;
+   cursor: pointer;
+}
+button.login_button i{
+    opacity: 0;
+}
+ div.login_option:hover button.login_button i{
+    opacity: 1;
+   
+}
+
+div.select h2{
+    margin-top: 5px;
+    color: rgb(106, 106, 248);
+    font-size: 15px;
+    
+
+}
+button.login_button{
+    
+    background-color: white;
+    border:none;
+    outline: none;
+    margin: 5px;
+    color: rgb(106, 106, 248);
+    font-size: 15px;
+}
+div.login_option{
+    
+    margin-left: 70px;
+    margin-top: 0px;
+    
+}
+
+div.login_content{
+    display: none;
+    width: 250px;
+
+}
+div.login_content div.signupme{
+    display: flex;
+    
+}
+div.login_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+}
+div.signupme h3{
+    font-size: 15px;
+    
+    cursor: pointer;
+    opacity: 0.9;
+}
+div.link i{
+    color: blue;
+}
+div.link a{
+    color: rgb(37, 36, 36);
+    opacity: 0.9;
+}
+div.link a:hover{
+    opacity: 1;
+    
+}
+div.signupme h3:hover{
+    opacity: 1.1;
+    
+    font-weight: bold;
+}
+div.link a:hover{
+   background-color:rgb(240, 240, 250);
+}
+
+div.login_option:hover div.login_content{
+    display: block;
+    background-color: white;
+    position: fixed;
+    
+    font-size: 15px;
+    box-shadow: 0px 0px 4px rgb(53, 53, 56);
+    border-radius: 2px;
+    
+
+}
+/* ---end login--- */
+
+/* ---start more--- */
+div.more_option{
+    margin-top: -3px;
+    margin-left: 50px;
+    cursor: pointer;
+}
+div.more_option h3{
+    font-size: 17px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+div.more_option i{
+    opacity: 0;
+}
+div.more_option:hover i{
+    opacity: 1;
+}
+div.more_content{
+    display: none;
+    width: 200px;
+}
+div.more_content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+div.more_link i{
+    color: blue;
+}
+div.more_link a{
+    color: rgb(37, 36, 36);
+    opacity: 0.8;
+}
+div.more_link a:hover{
+    opacity: 1;
+}
+div.more_link a:hover{
+    background-color:rgb(240, 240, 250);
+ }
+ 
+ div.more_option:hover div.more_content{
+     display: block;
+     background-color: white;
+     position: fixed;
+     
+     font-size: 15px;
+     box-shadow: 0px 0px 4px rgb(53, 53, 56);
+     border-radius: 2px;
+     
+ 
+ }
+ /* ---end more--- */
+
+ /* ---start cart--- */
+div.cart{
+    margin-left: 50px;
+    cursor: pointer;
+    margin-top: -3px;
+}
+div.cart h3{
+    font-size: 17px;
+    color: white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+ @media (min-width:1450px){
+    div.logo{
+        margin-left: 15%;
+    }
+} 
+
+

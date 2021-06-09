@@ -1,0 +1,24 @@
+
+div.blogs div.blog{
+    margin-left: 20px;
+    margin-right: 20px;
+    height: 100px;
+    box-shadow: 0px 0px 4px black;
+    margin-top: 90px;
+    display: flex;
+}
+div.blog div.vline{
+    height: 100%;
+    width: 9px;
+    background-color: rgb(44, 106, 241);
+}
+div.blog div.stmt h1{
+    color: blue;
+    font-size: 40px;
+    margin: 26px;
+}
+@media (max-width:1400px){
+    div.blogs{
+        width: 1370px;
+    }
+}

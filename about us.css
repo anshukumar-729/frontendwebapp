@@ -1,0 +1,53 @@
+div.about_us{
+    background-image: linear-gradient(0deg,red,rgb(235, 81, 81),rgb(226, 171, 171),rgb(236, 221, 221),rgb(240, 233, 233));
+    height: 800px;
+}
+div.about_us img{
+    height: 500px;
+    width: 550px;
+    margin-top: 0px;
+    margin-left: 400px;
+}
+div.about_us h2{
+    margin-left: 300px;
+    color: rgb(80, 106, 255);
+}
+div.about_us h3{
+    margin-left: 400px;
+    color: white;
+}
+@media (min-width:1450px){
+    div.about_us img{
+        margin-left: 500px;
+    }
+}
+@media (min-width:1550px){
+    div.about_us img{
+        margin-left: 600px;
+    }
+}
+@media (min-width:1450px){
+    div.about_us h2{
+        margin-left: 400px;
+    }
+}
+@media (min-width:1450px){
+    div.about_us h3{
+        margin-left: 500px;
+    }
+}
+@media (min-width:1550px){
+    div.about_us h2{
+        margin-left: 500px;
+    }
+}
+@media (min-width:1550px){
+    div.about_us h3{
+        margin-left: 600px;
+    }
+}
+@media (max-width:1450px){
+    div.about_us{
+        width: 1450px;
+    }
+}
